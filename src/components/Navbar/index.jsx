@@ -18,9 +18,10 @@ const Navbar = () => {
                     <NavLink className="navlink" activeclassname="active" to='/education'>Education</NavLink>
                     <NavLink className="navlink" activeclassname="active" to='/project'>Project</NavLink>
                 </header>
-                <div className='MobileDiv' onClick={handleClick}>{
-                    click ? <AiOutlineClose className='MobileBar' /> : <FaBars className='MobileBar' />
-                }</div>
+                <div className='MobileDiv' onClick={handleClick}>
+                    <NavLink className="mobilelogo" to="/" exact='true'><img src="/images/fakepng.svg" height="60px" /></NavLink>{
+                        click ? <AiOutlineClose className='MobileBar' /> : <FaBars className='MobileBar' />
+                    }</div>
             </div>
             <div className={click ? 'Mobile' : 'MobileClose'}>
                 <NavLink className="mobilelink" onClick={handleClick} activeclassname="active" to='/' exact='true'>Home</NavLink>

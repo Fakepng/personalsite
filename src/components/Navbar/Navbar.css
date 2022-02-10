@@ -20,7 +20,7 @@
 }
 
 .navlogo {
-
+    display: flex;
 }
 
 .navlink {
@@ -50,6 +50,10 @@
 
 .MobileDiv {
     display: none;
+}
+
+.mobilelogo {
+    display: flex;
 }
 
 @media screen and (max-width: 768px) {
