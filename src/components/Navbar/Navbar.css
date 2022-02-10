@@ -1,11 +1,97 @@
-.navbar {
-    color: #000;
+.navbardiv {
+    background-color: #000;
+    height: 60px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    position: fixed;
+    z-index: 999;
 }
 
-.active {
-    background-color: pink;
-    color: green;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1100px;
+    margin-right: -22px;
+    align-items: center;
+}
+
+.navlogo {
+
 }
 
 .navlink {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navlink:hover {
+    color: green;
+}
+
+.Mobile {
+    display: grid;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 120px;
+    z-index: 995;
+}
+
+.MobileClose {
+    display: none;
+}
+
+.MobileDiv {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+
+    .MobileDiv {
+        display: flex;
+        width: 100%;
+        z-index: 999;
+        text-decoration: none;
+        list-style: none;
+        align-items: center;
+        padding: 0;
+        top: 0;
+    }
+}
+
+.MobileBar {
+    color: #fff;
+    position: absolute;
+    top: 0.9rem;
+    right: 1.5rem;
+    background: transparent;
+    font-size: 2rem;
+    outline: none;
+    cursor: pointer;
+    z-index: 996;
+}
+
+.mobilelink {
+    text-decoration: none;
+    color: #fff;
+    width: auto;
+    border: red solid 1px;
+}
+
+.mobilelink:hover {
+    color: green;
+}
+
+.active {
+    color: greenyellow;
 }

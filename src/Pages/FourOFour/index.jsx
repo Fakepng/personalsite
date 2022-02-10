@@ -1,8 +1,9 @@
 import React from 'react'
+import './FourOFour.css'
 
 const FourOFour = () => {
   return (
-    <div>FourOFour</div>
+    <div className="FourOFour">404</div>
   )
 }
 

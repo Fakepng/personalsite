@@ -1,0 +1,8 @@
+.Project {
+    display: flex;
+    padding: 60px 0px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
