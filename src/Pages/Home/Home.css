@@ -1,8 +1,17 @@
 .Home {
     display: flex;
-    padding: 60px 0px;
-    height: 100vh;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    font-size: 4rem;
+    justify-content: center;
+    padding-top: 120px;
+    height: 100%;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+.message {
+    font-size: 2rem;
+    text-align: center;
 }

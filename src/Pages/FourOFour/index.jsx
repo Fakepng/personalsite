@@ -3,7 +3,11 @@ import './FourOFour.css'
 
 const FourOFour = () => {
   return (
-    <div className="FourOFour">404</div>
+    <div className="FourOFour">
+      <h1>404</h1>
+      <p>Page Not Found</p>
+    </div>
+
   )
 }
 

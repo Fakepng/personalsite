@@ -1,5 +1,6 @@
 .FourOFour {
     display: flex;
+    flex-direction: column;
     padding: 60px 0px;
     height: 100vh;
     justify-content: center;

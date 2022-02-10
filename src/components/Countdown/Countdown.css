@@ -1,0 +1,29 @@
+.countdown {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    padding-top: 40px;
+}
+
+.countdown h2 {
+    font-size: 3.5rem;
+    width: 8.5rem;
+    height: 4rem;
+    text-align: center;
+}
+
+.countdown p {
+    font-size: 2.5rem;
+    width: 8.5rem;
+    height: 4rem;
+    text-align: center;
+}
+
+@media  screen and (max-width:768px){
+    .countdown {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 0px;
+        padding-top: 40px;
+    }
+}
