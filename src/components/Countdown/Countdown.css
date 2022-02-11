@@ -1,9 +1,27 @@
+.day{ grid-area: day;}
+.days{ grid-area: days;}
+.hour{ grid-area: hour;}
+.hours{ grid-area: hours;}
+.minute{ grid-area: minute;}
+.minutes{ grid-area: minutes;}
+.second{ grid-area: second;}
+.seconds{ grid-area: seconds;}
+
 .countdown {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "day hour minute second" "days hours minutes seconds";
     grid-column-gap: 20px;
     grid-row-gap: 0px;
     padding-top: 40px;
+}
+
+@media  screen and (max-width:768px){
+    .countdown {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 0px;
+        padding-top: 40px;
+        grid-template-areas: "day" "days" "hour" "hours" "minute" "minutes" "second" "seconds";
+    }
 }
 
 .countdown h2 {
@@ -18,12 +36,4 @@
     width: 8.5rem;
     height: 4rem;
     text-align: center;
-}
-
-@media  screen and (max-width:768px){
-    .countdown {
-        grid-template-columns: repeat(1, 1fr);
-        grid-row-gap: 0px;
-        padding-top: 40px;
-    }
 }

@@ -25,11 +25,11 @@ const Countdown = ({ countdownTimestampMs }) => {
 
     return (
         <div className='countdown'>
-            <h2 id='day'>{remainingTime.days}</h2>
-            <h2 id='hour'>{remainingTime.hours}</h2>
-            <h2 id='minute'>{remainingTime.minutes}</h2>
-            <h2 id='second'>{remainingTime.seconds}</h2>
-            <p>Days</p><p>Hours</p><p>Minutes</p><p>Seconds</p>
+            <h2 class='day'>{remainingTime.days}</h2>
+            <h2 class='hour'>{remainingTime.hours}</h2>
+            <h2 class='minute'>{remainingTime.minutes}</h2>
+            <h2 class='second'>{remainingTime.seconds}</h2>
+            <p class='days'>Days</p><p class='hours'>Hours</p><p class='minutes'>Minutes</p><p class='seconds'>Seconds</p>
         </div>
     )
 }
