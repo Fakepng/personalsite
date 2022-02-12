@@ -1,8 +1,57 @@
-.Project {
-    display: flex;
-    padding: 60px 0px;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
+h1 {
+    padding-top: 60px;
+    text-align: center;
     font-size: 4rem;
+}
+
+.project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 60px;
+    height: 100%;
+    width: 100%;
+    max-width: 1100px;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 40px;
+    padding: 40px;
+    margin: auto;
+}
+
+.project-container a {
+    text-decoration: none;
+    font-size: 2rem;
+    text-align: center;
+}
+
+@media screen and (max-width:768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .project {
+        grid-template-columns: 1fr;
+    }
+    .project-container a {
+        font-size: 1.5rem;
+    }
+}
+
+.project-title:hover {
+    color: green;
+    background-color: #ccc;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+.project-title {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #555;
+    height: 4rem;
+    border-radius: 5px;
+    color: #eee;
+    transition: 0.3s ease-in-out;
 }
