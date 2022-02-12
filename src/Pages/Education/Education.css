@@ -1,8 +1,44 @@
-.Education {
-    display: flex;
-    padding: 60px 0px;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    font-size: 4rem;
+.image { 
+    grid-area: image;
+    height: 100px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.level { 
+    grid-area: level; 
+    text-align: center;
+    padding-top: 20px;
+    font-size: 2rem;
+}
+
+.name { 
+    grid-area: name; 
+    font-size: 1.5rem;
+}
+
+.sec { 
+    grid-area: sec; 
+    font-size: 1rem;
+}
+
+.grade { 
+    grid-area: grade;
+    font-size: 1rem; 
+}
+
+.gpa { 
+    grid-area: gpa; 
+    font-size: 1rem; 
+}
+
+.education-container {
+    display: grid;
+    max-width: 1100px;
+    grid-template-areas: "level level" "image name" "image sec" "image grade" "image gpa";
+    margin: auto;
+}
+
+.education-container h1 {
+    font-size: 2rem;
 }

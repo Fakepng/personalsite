@@ -16,7 +16,7 @@ const Project = () => {
 
   const repoElement = repos.map(repo => {
     return (
-      <div className="project-container">
+      <div className="project-container" key={repo.id}>
         <a href={repo.html_url}>
           <div className="project-title">
             {repo.name}
