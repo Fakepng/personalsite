@@ -9,7 +9,7 @@ const Home = () => {
       <p className='message'>Hello my name is Fakepng. I am a high school student with a passion for coding.</p>
       <br />
       <p>Days until I have finished grades 11</p>
-      <Countdown countdownTimestampMs={1645778400000}/>
+      <Countdown countdownTimestampMs={1646365200000}/>
     </div>
   )
 }
