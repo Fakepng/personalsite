@@ -6,7 +6,11 @@ const defaultRemainingTime = {
     days: '00',
     hours: '00',
     minutes: '00',
-    seconds: '00'
+    seconds: '00',
+    day: 'Day',
+    hour: 'Hour',
+    minute: 'Minute',
+    second: 'Second'
 }
 
 const Countdown = ({ countdownTimestampMs }) => {
@@ -29,7 +33,7 @@ const Countdown = ({ countdownTimestampMs }) => {
             <h2 className='hour'>{remainingTime.hours}</h2>
             <h2 className='minute'>{remainingTime.minutes}</h2>
             <h2 className='second'>{remainingTime.seconds}</h2>
-            <p className='days'>Days</p><p className='hours'>Hours</p><p className='minutes'>Minutes</p><p className='seconds'>Seconds</p>
+            <p className='days'>{remainingTime.day}</p><p className='hours'>{remainingTime.hour}</p><p className='minutes'>{remainingTime.minute}</p><p className='seconds'>{remainingTime.second}</p>
         </div>
     )
 }
