@@ -8,7 +8,6 @@ const Home = () => {
       <h1>Hello!</h1>
       <p className='message'>Hello my name is Fakepng. I am a high school student with a passion for coding.</p>
       <br />
-      <p>Days until I have finished grades 11</p>
       <Countdown countdownTimestampMs={1646365200000}/>
     </div>
   )
