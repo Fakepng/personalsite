@@ -1,6 +1,7 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer'
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Education from './Pages/Education';
@@ -18,6 +19,7 @@ function App() {
         <Route path="/project" element={<Project />} />
         <Route path="*" element={<FourOFour />} />
       </Routes>
+      <Footer />
     </>
   );
 }
