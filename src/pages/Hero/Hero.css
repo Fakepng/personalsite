@@ -20,7 +20,7 @@
     justify-content: center;
     font-size: 1.2rem;
     margin: 0 1rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .hero-bold {
@@ -34,6 +34,6 @@
 }
 
 .hero-image {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     min-height: 100px;
 }
