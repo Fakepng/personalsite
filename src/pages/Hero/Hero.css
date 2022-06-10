@@ -1,11 +1,12 @@
 .hero {
     display: grid;
-    height: 100vh;
+    min-height: 100vh;
     grid-template-columns: 1fr 1fr;
     font-size: 1.2rem;
+    background-color: var(--color-background);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
     .hero {
         grid-template-columns: 1fr;
     }
@@ -33,7 +34,34 @@
     color: var(--color-white);
 }
 
+.hero-container > p {
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-container > p > img {
+    margin-top: 0.1rem;
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.hero-container > p > img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
 .hero-image {
     /* border: 1px solid blue; */
-    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.hero-image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }

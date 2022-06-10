@@ -2,7 +2,7 @@ import "./Hero.css";
 
 const Hero = () => {
 	return (
-		<div className='hero'>
+		<div id='hero' className='hero'>
 			<div className='hero-container'>
 				<h1>
 					Welcome to <span className='hero-bold'>Fakepng personalsite</span>
@@ -12,8 +12,36 @@ const Hero = () => {
 					developing skills in different programming languages for about two
 					years now.
 				</h2>
+				<p>
+					<img
+						src='/images/svg/IG.svg'
+						alt='instagram'
+						width='60'
+						height='60'
+					/>
+					<img
+						src='/images/svg/FB.svg'
+						alt='instagram'
+						width='60'
+						height='60'
+					/>
+					<img
+						src='/images/svg/YT.svg'
+						alt='instagram'
+						width='60'
+						height='60'
+					/>
+					<img
+						src='/images/svg/GH.svg'
+						alt='instagram'
+						width='60'
+						height='60'
+					/>
+				</p>
 			</div>
-			<div className='hero-image'></div>
+			<div className='hero-image'>
+				<img src='/images/png/hero.png' alt='developer' />
+			</div>
 		</div>
 	);
 };
