@@ -37,7 +37,7 @@
 .hero-container > p {
     display: flex;
     position: relative;
-    z-index: 1;
+    z-index: 0;
 }
 
 .hero-container > p > img {
