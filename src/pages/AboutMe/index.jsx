@@ -18,6 +18,10 @@ const AboutMe = () => {
 					&emsp;"age": <span>{age}</span>,
 				</p>
 				<p>&emsp;"school": "Satriwitthaya 2 school"</p>
+				<p>
+					&emsp;"interests": {"["}Space, EV, AI, Smart Home, IoT
+					{"]"}
+				</p>
 				<p>{"}"}</p>
 			</div>
 		</div>
