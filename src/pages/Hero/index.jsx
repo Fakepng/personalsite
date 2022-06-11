@@ -1,6 +1,21 @@
+import { useState, useEffect } from "react";
+import axios from "axios";
 import "./Hero.css";
 
 const Hero = () => {
+	const [user, setUser] = useState({});
+
+	useEffect(() => {
+		axios
+			.get("https://api.github.com/users/Fakepng")
+			.then((res) => {
+				setUser(res.data);
+			})
+			.catch((err) => {
+				console.error(err);
+			});
+	}, []);
+
 	return (
 		<div id='hero' className='hero'>
 			<div className='hero-container'>
@@ -12,6 +27,9 @@ const Hero = () => {
 					developing skills in different programming languages for about two
 					years now.
 				</h2>
+				<p>
+					{user.followers} followers | {user.following} following
+				</p>
 				<p>
 					<img
 						src='/images/svg/IG.svg'
