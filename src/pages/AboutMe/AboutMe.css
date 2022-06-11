@@ -1,12 +1,12 @@
 .AboutMe {
-    height: 100vh;
+    /* height: 100vh; */
     color: var(--color-white);
     background-color: var(--color-background);
 }
 
 .AboutMe > h1 {
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 3rem;
     font-size: 3rem;
 }
 
