@@ -20,7 +20,7 @@ const Github = () => {
 		return (
 			<div className={`repo-container ${repo.language}`} key={repo.id}>
 				<abbr title={repo.description}>
-					<a href={repo.html_url} target='_blank' rel='external'>
+					<a href={repo.html_url} target='_blank' rel='noreferrer'>
 						<h2>{repo.name}</h2>
 						<p>{repo.language}</p>
 					</a>
