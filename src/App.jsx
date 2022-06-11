@@ -3,6 +3,8 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Hero from "./pages/Hero";
 import AboutMe from "./pages/AboutMe";
 import Github from "./pages/Github";
+import Certificate from "./pages/Certificate";
+
 import Menu from "./components/Menu";
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
 							<Hero />
 							<AboutMe />
 							<Github />
+							<Certificate />
 						</>
 					}
 				/>
