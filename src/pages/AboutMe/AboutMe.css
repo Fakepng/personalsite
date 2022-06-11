@@ -1,12 +1,21 @@
 .AboutMe {
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: var(--color-white);
-    background-image: url(../../images/jpg/test.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: var(--color-background);
+}
+
+.AboutMe > h1 {
+    text-align: center;
+    padding-top: 1rem;
+    font-size: 3rem;
+}
+
+.AboutMe > div {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+
+.AboutMe > div > p > span {
+    color: var(--color-secondary);
 }
