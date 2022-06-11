@@ -1,15 +1,24 @@
 .Github {
-    min-height: 100vh;
+    height: 100%;
+    color: var(--color-white);
+    background-color: var(--color-background);
+}
+
+.Github > h1 {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.repo-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    color: var(--color-white);
-    background-color: var(--color-background);
-    padding: 1rem 0;
 }
 
-.repo-container {
+.repo {
     background-color: rgba(0, 0, 0, 0.2);
     padding: 1rem;
     margin: 0.5rem;
@@ -17,11 +26,11 @@
     border-radius: 1rem;
 }
 
-.repo-container > abbr > a > p {
+.repo > abbr > a > p {
     text-align: center;
 }
 
-.repo-container > abbr, .repo-container > abbr > a {
+.repo > abbr, .repo > abbr > a {
     color: var(--color-white);
     text-decoration: none;
 }

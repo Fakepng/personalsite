@@ -18,7 +18,7 @@ const Github = () => {
 
 	const reposList = repos.map((repo) => {
 		return (
-			<div className={`repo-container ${repo.language}`} key={repo.id}>
+			<div className={`repo ${repo.language}`} key={repo.id}>
 				<abbr title={repo.description}>
 					<a href={repo.html_url} target='_blank' rel='noreferrer'>
 						<h2>{repo.name}</h2>
@@ -31,7 +31,8 @@ const Github = () => {
 
 	return (
 		<div id='github' className='Github'>
-			{reposList}
+			<h1>Github</h1>
+			<div className='repo-container'>{reposList}</div>
 		</div>
 	);
 };
