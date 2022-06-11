@@ -1,11 +1,12 @@
 .Github {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     color: var(--color-white);
     background-color: var(--color-background);
+    padding: 1rem 0;
 }
 
 .repo-container {
