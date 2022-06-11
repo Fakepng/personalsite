@@ -24,6 +24,9 @@ const Menu = () => {
 				<a href='#github' onClick={closeHandler}>
 					Github
 				</a>
+				<a href='#certificate' onClick={closeHandler}>
+					Certificate
+				</a>
 			</div>
 		</div>
 	);
