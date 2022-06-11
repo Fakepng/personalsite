@@ -3,6 +3,56 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     color: var(--color-white);
     background-color: var(--color-background);
+}
+
+.repo-container {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    margin: 0.5rem;
+    border: 0.2rem dotted var(--color-white);
+    border-radius: 1rem;
+}
+
+.repo-container > abbr > a > p {
+    text-align: center;
+}
+
+.repo-container > abbr, .repo-container > abbr > a {
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.JavaScript {
+    border: 0.2rem dotted #f1e05a;
+}
+
+.HTML, .Svelte {
+    border: 0.2rem dotted #e44b23;
+}
+
+.Go {
+    border: 0.2rem dotted #375eab;
+}
+
+.C {
+    border: 0.2rem dotted #555555;
+}
+
+.cpp {
+    border: 0.2rem dotted #f34b7d;
+}
+
+.TypeScript {
+    border: 0.2rem dotted #2b7489;
+}
+
+.Java {
+    border: 0.2rem dotted #b07219;
+}
+
+.Python {
+    border: 0.2rem dotted #3572A5;
 }
