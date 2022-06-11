@@ -1,0 +1,15 @@
+.Certificate {
+    min-height: 100vh;
+    background-color: var(--color-background);
+    color: var(--color-white);
+}
+
+.Certificate > h1 {
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 3rem;
+}
+
+.cert-container {
+    padding-left: 4rem;
+}
