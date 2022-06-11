@@ -14,7 +14,7 @@ const Project = () => {
 		getRepos();
 	}, []);
 
-	const repoElement = repos.map(async (repo) => {
+	const repoElement = repos.map((repo) => {
 		return (
 			<div className='project-container' key={repo.id}>
 				<a href={repo.html_url}>
