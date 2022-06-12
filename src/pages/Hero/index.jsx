@@ -20,7 +20,7 @@ const Hero = () => {
 		<div id='hero' className='hero'>
 			<div className='hero-container'>
 				<h1>
-					Welcome to <span className='hero-bold'>Fakepng personalsite</span>
+					Welcome to <span className='hero-bold'>Fakepng personal site</span>
 				</h1>
 				<h2>
 					I'm a high school student with a passion for coding. I've been
