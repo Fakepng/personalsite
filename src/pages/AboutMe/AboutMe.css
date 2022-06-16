@@ -1,5 +1,5 @@
 .AboutMe {
-    /* height: 100vh; */
+    min-height: 100vh;
     color: var(--color-white);
     background-color: var(--color-background);
 }
