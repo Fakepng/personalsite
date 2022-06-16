@@ -17,7 +17,7 @@ const Hero = () => {
 	}, []);
 
 	return (
-		<div id='hero' className='hero'>
+		<div id='top' className='hero'>
 			<div className='hero-container'>
 				<h1>
 					Welcome to <span className='hero-bold'>Fakepng personal site</span>
@@ -31,30 +31,33 @@ const Hero = () => {
 					{user.followers} followers | {user.following} following
 				</p>
 				<p>
-					<img
-						src='/images/svg/IG.svg'
-						alt='instagram'
-						width='60'
-						height='60'
-					/>
-					<img
-						src='/images/svg/FB.svg'
-						alt='instagram'
-						width='60'
-						height='60'
-					/>
-					<img
-						src='/images/svg/YT.svg'
-						alt='instagram'
-						width='60'
-						height='60'
-					/>
-					<img
-						src='/images/svg/GH.svg'
-						alt='instagram'
-						width='60'
-						height='60'
-					/>
+					<a href='https://www.instagram.com/krit_fakepng/'>
+						<img
+							src='/images/svg/IG.svg'
+							alt='instagram'
+							width='60'
+							height='60'
+						/>
+					</a>
+					<a href='https://www.facebook.com/KritKasemte'>
+						<img
+							src='/images/svg/FB.svg'
+							alt='facebook'
+							width='60'
+							height='60'
+						/>
+					</a>
+					<a href='https://www.youtube.com/channel/UCzyQQ_6vxw02MgdxBGcoKhQ'>
+						<img
+							src='/images/svg/YT.svg'
+							alt='youtube'
+							width='60'
+							height='60'
+						/>
+					</a>
+					<a href='https://github.com/Fakepng'>
+						<img src='/images/svg/GH.svg' alt='github' width='60' height='60' />
+					</a>
 				</p>
 			</div>
 			<div className='hero-image'>

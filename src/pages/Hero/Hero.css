@@ -40,14 +40,18 @@
     z-index: 0;
 }
 
-.hero-container > p > img {
+.hero-container > p:last-of-type {
+    margin-left: 6rem;
+}
+
+.hero-container > p > a {
     margin-top: 0.1rem;
     cursor: pointer;
     transform: scale(1);
     transition: transform 0.2s ease-in-out;
 }
 
-.hero-container > p > img:hover {
+.hero-container > p > a:hover {
     transform: scale(1.1);
     transition: transform 0.2s ease-in-out;
 }
