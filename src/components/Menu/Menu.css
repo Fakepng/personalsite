@@ -25,7 +25,7 @@
 }
 
 .menu-close {
-    transform: translateX(-100%);
+    transform: translateX(-100%) scaleY(0);
     transition: transform 0.2s ease-in-out;
     overflow: hidden;
 }
@@ -34,7 +34,7 @@
     position: fixed;
     max-width: 20rem;
     height: 100vh;
-    transform: translateX(0);
-    transition: transform 0.2s ease-in-out;
+    transform: translateX(0) scaleY(1);
+    transition: transform 0.3s ease-in-out;
     background-color: rgba(0, 0, 0, 0.8);
 }
