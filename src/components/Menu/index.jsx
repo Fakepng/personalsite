@@ -15,7 +15,7 @@ const Menu = () => {
 				<Hamburger color='#E7DFDD' rounded toggled={isOpen} toggle={setOpen} />
 			</div>
 			<div className={isOpen ? "menu-open" : "menu-close"}>
-				<a href='#hero' onClick={closeHandler}>
+				<a href='#top' onClick={closeHandler}>
 					Top
 				</a>
 				<a href='#aboutme' onClick={closeHandler}>
@@ -26,6 +26,9 @@ const Menu = () => {
 				</a>
 				<a href='#certificate' onClick={closeHandler}>
 					Certificate
+				</a>
+				<a href='#contact' onClick={closeHandler}>
+					Contact
 				</a>
 			</div>
 		</div>
