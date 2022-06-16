@@ -1,5 +1,5 @@
 .Github {
-    height: 100%;
+    min-height: 100vh;
     color: var(--color-white);
     background-color: var(--color-background);
 }
@@ -24,6 +24,31 @@
     margin: 0.5rem;
     border: 0.2rem dotted var(--color-white);
     border-radius: 1rem;
+    transform: translateY(0);
+    box-shadow: none;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.repo-animation {
+    animation: github-repo-animation 0.3s ease-out;
+}
+
+@keyframes github-repo-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(4rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.repo:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 10px 10px 5px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .repo > abbr > a > p {
