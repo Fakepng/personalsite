@@ -40,3 +40,10 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
+
+@supports (scrollbar-color: red blue) {
+  * {
+      scrollbar-color: #39FF13 #0E0B16;
+      scrollbar-width: thin;
+  }
+}
