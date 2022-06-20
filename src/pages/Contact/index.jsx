@@ -29,10 +29,6 @@ const Contact = () => {
 			});
 	};
 
-	const send = () => {
-		setSent("contact-sent");
-	};
-
 	return (
 		<div id='contact' className='Contact'>
 			<h1>Contact</h1>
