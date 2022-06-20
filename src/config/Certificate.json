@@ -2,56 +2,78 @@
     {
         "name": "EF SET",
         "level": "C2",
-        "img": "EFSETCertificate.jpg"
+        "img": "EFSETCertificate.jpg",
+        "spanWidth": 1,
+        "spanHeight": 2
     },
     {
         "name": "K-Engineering World Workshop 2021",
         "level": "Excellent",
-        "img": "K-EngineeringWorldWorkshop2021.jpg"
+        "img": "K-EngineeringWorldWorkshop2021.jpg",
+        "spanWidth": 1,
+        "spanHeight": 1
     },
     {
         "name": "อัจฉริยะภาพวิศวศิลปากร 2564",
         "level": " ดีเด่น",
-        "img": "silpakorn.jpg"
+        "img": "silpakorn.jpg",
+        "spanWidth": 2,
+        "spanHeight": 2
     },
     {
         "name": "EDAT2021",
         "level": "Good",
-        "img": "EDATScore.jpg"
+        "img": "EDATScore.jpg",
+        "spanWidth": 1,
+        "spanHeight": 2
     },
     {
         "name": "MUEG OPEN HOUSE 2021",
         "level": "Participation",
-        "img": "MUEGOPENHOUSE2021.jpg"
+        "img": "MUEGOPENHOUSE2021.jpg",
+        "spanWidth": 2,
+        "spanHeight": 2
     },
     {
         "name": "Thailand Online Competitive Programming Contest 2021",
         "level": "Participation",
-        "img": "TOCPC2021.jpg"
+        "img": "TOCPC2021.jpg",
+        "spanWidth": 2,
+        "spanHeight": 2
     },
     {
         "name": "TNI ONLINE OPEN CAMPUS 2021",
         "level": "Participation",
-        "img": "TNIONLINEOPENCAMPUS2021.jpg"
+        "img": "TNIONLINEOPENCAMPUS2021.jpg",
+        "spanWidth": 1,
+        "spanHeight": 1
     },
     {
         "name": "M4-Future พี่แนะแนวน้อง Online",
         "level": "Lecturer",
-        "img": "M4FutureOnline.jpg"
+        "img": "M4FutureOnline.jpg",
+        "spanWidth": 1,
+        "spanHeight": 1
     },
     {
         "name": "English Program",
         "level": "GOOD",
-        "img": "EnglishProgram.jpg"
+        "img": "EnglishProgram.jpg",
+        "spanWidth": 1,
+        "spanHeight": 1
     },
     {
         "name": "Young Thai for sustainable Development Assembly",
         "level": "Participation",
-        "img": "YSDA.jpg"
+        "img": "YSDA.jpg",
+        "spanWidth": 1,
+        "spanHeight": 1
     },
     {
         "name": "เจาะจิตค้นหาตัวตน Day Camp SW2 ครั้งที่ 2",
         "level": "Participation",
-        "img": "daycamp.jpg"
+        "img": "daycamp.jpg",
+        "spanWidth": 1,
+        "spanHeight": 1
     }
 ]
