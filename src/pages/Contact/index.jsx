@@ -7,7 +7,10 @@ const Contact = () => {
 	const [isSent, setSent] = useState("");
 
 	const handleSubmit = (event) => {
+		const ONESECONDDELAY = 4000;
 		event.preventDefault();
+
+		setSent("contact-sent");
 
 		emailjs
 			.sendForm(
@@ -17,11 +20,17 @@ const Contact = () => {
 				process.env.REACT_APP_EMAILJS_PUBLIC_KEY
 			)
 			.then((result) => {
-				setSent("contact-sent");
+				setTimeout(() => {
+					setSent("");
+				}, ONESECONDDELAY);
 			})
 			.catch((error) => {
 				console.log(error.text);
 			});
+	};
+
+	const send = () => {
+		setSent("contact-sent");
 	};
 
 	return (
