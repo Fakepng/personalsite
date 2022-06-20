@@ -4,17 +4,21 @@ import "./Certificate.css";
 const Certificate = () => {
 	const certificateList = Certificates.map((certificate) => {
 		return (
-			<div className='cert' key={certificate.id}>
-				<details>
-					<summary>
+			<div
+				className={`cert w-${certificate.spanWidth} h-${certificate.spanHeight}`}
+				key={certificate.id}
+			>
+				<div className='cert-item'>
+					<div className='cert-image'>
+						<img
+							src={`/images/Certificate/${certificate.img}`}
+							alt={certificate.name}
+						/>
+					</div>
+					<div className='cert-info'>
 						{certificate.name} | {certificate.level}
-					</summary>
-					<img
-						src={`/images/Certificate/${certificate.img}`}
-						alt={certificate.name}
-						width='40%'
-					/>
-				</details>
+					</div>
+				</div>
 			</div>
 		);
 	});
