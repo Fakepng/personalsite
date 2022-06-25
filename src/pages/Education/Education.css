@@ -1,0 +1,59 @@
+.Education {
+    min-height: 100vh;
+    color: var(--color-white);
+    background-color: var(--color-background);
+}
+
+.Education > h1 {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.edu-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 4rem;
+}
+
+@media screen and (max-width: 94rem) {
+    .edu-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 62rem) {
+    .edu-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.edu {
+    display: grid;
+    margin: auto;
+    max-width: 30rem;
+    width: 100%;
+    height: 22rem;
+    justify-content: center;
+    text-align: center;
+    color: var(--color-white);    
+    border-radius: 4rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px dashed var(--color-white);
+    transform: translateY(0);
+    box-shadow: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.edu > img {
+    height: 10rem;
+    padding-bottom: 1rem;
+    margin: auto;
+}
+
+.edu:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 10px 10px 5px var(--color-white);
+    transition: transform 0.3s ease-in-out;
+}
