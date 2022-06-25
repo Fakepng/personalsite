@@ -32,6 +32,10 @@ const Github = () => {
 	return (
 		<div id='github' className='Github'>
 			<h1>Github</h1>
+			<img
+				src='https://ghchart.rshah.org/Fakepng'
+				alt='Fakepng Github contribution'
+			/>
 			<div className='repo-container'>{reposList}</div>
 		</div>
 	);
