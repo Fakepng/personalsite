@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 import Hero from "./pages/Hero";
 import AboutMe from "./pages/AboutMe";
+import Education from "./pages/Education";
 import Github from "./pages/Github";
 import Certificate from "./pages/Certificate";
 import Contact from "./pages/Contact";
@@ -21,6 +22,7 @@ function App() {
 						<>
 							<Hero />
 							<AboutMe />
+							<Education />
 							<Github />
 							<Certificate />
 							<Contact />
