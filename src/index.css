@@ -17,9 +17,15 @@ html {
 
 body {
   --color-background: #0E0B16;
+  --color-foreground: #241C38;
+  --color-tint1: #26232D;
+  --color-tint2: #3e3b44;
+  --color-tint3: #56545b;
+  --color-tint4: #6e6c73;
   --color-secondary: #3BB143;
   --color-primary: #39FF13;
   --color-white: #E7DFDD;
+  --github-repo-language: var(--color-white);
 }
 
 ::-webkit-scrollbar {
