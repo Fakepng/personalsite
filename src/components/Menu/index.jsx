@@ -21,6 +21,9 @@ const Menu = () => {
 				<a href='#aboutme' onClick={closeHandler}>
 					About me
 				</a>
+				<a href='#education' onClick={closeHandler}>
+					Education
+				</a>
 				<a href='#github' onClick={closeHandler}>
 					Github
 				</a>
