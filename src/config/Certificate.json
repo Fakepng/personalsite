@@ -49,6 +49,13 @@
         "spanHeight": 1
     },
     {
+        "name": "BORNTODEV",
+        "level": "Participation",
+        "img": "BORNTODEV_DEVLAB3.png",
+        "spanWidth": 2,
+        "spanHeight": 2
+    },
+    {
         "name": "M4-Future พี่แนะแนวน้อง Online",
         "level": "Lecturer",
         "img": "M4FutureOnline.jpg",
