@@ -91,8 +91,3 @@
     border-radius: 0;
     transition: border-radius 0.2s ease-in-out;
 }
-
-.hero-image > img:hover {
-    border-radius: 50px;
-    transition: border-radius 0.2s ease-in-out;
-}
