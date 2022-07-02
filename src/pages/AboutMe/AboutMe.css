@@ -1,5 +1,6 @@
 .AboutMe {
     min-height: 100vh;
+    height: 100%;
     color: var(--color-white);
     background-color: var(--color-background);
 }
