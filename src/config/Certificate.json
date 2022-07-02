@@ -28,11 +28,25 @@
         "spanHeight": 2
     },
     {
+        "name": "sololearn JavaScript",
+        "level": "Completed",
+        "img": "sololearn_JavaScript.jpg",
+        "spanWidth": 2,
+        "spanHeight": 2
+    },
+    {
+        "name": "sololearn React Redux",
+        "level": "Completed",
+        "img": "sololearn_React.jpg",
+        "spanWidth": 2,
+        "spanHeight": 2
+    },
+    {
         "name": "MUEG OPEN HOUSE 2021",
         "level": "Participation",
         "img": "MUEGOPENHOUSE2021.jpg",
-        "spanWidth": 2,
-        "spanHeight": 2
+        "spanWidth": 1,
+        "spanHeight": 1
     },
     {
         "name": "Thailand Online Competitive Programming Contest 2021",
@@ -52,27 +66,13 @@
         "name": "BORNTODEV",
         "level": "Participation",
         "img": "BORNTODEV_DEVLAB3.png",
-        "spanWidth": 2,
-        "spanHeight": 2
+        "spanWidth": 1,
+        "spanHeight": 1
     },
     {
         "name": "M4-Future พี่แนะแนวน้อง Online",
         "level": "Lecturer",
         "img": "M4FutureOnline.jpg",
-        "spanWidth": 1,
-        "spanHeight": 1
-    },
-    {
-        "name": "English Program",
-        "level": "GOOD",
-        "img": "EnglishProgram.jpg",
-        "spanWidth": 1,
-        "spanHeight": 1
-    },
-    {
-        "name": "Young Thai for sustainable Development Assembly",
-        "level": "Participation",
-        "img": "YSDA.jpg",
         "spanWidth": 1,
         "spanHeight": 1
     },
