@@ -7,11 +7,13 @@ const Certificate = () => {
 	const [cert, setCert] = useState(-1);
 
 	const handleOpen = (index) => {
+		document.body.style.overflowY = "hidden";
 		setCert(index);
 		setOpen(true);
 	};
 
 	const handleClose = () => {
+		document.body.style.overflowY = "auto";
 		setOpen(false);
 		setCert(-1);
 	};
