@@ -28,6 +28,20 @@
         "spanHeight": 2
     },
     {
+        "name": "sololearn Web Development",
+        "level": "Completed",
+        "img": "sololearn_Webdev.jpg",
+        "spanWidth": 2,
+        "spanHeight": 2
+    },
+    {
+        "name": "sololearn HTML",
+        "level": "Completed",
+        "img": "sololearn_HTML.jpg",
+        "spanWidth": 2,
+        "spanHeight": 2
+    },
+    {
         "name": "sololearn JavaScript",
         "level": "Completed",
         "img": "sololearn_JavaScript.jpg",
