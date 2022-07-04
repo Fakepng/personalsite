@@ -56,6 +56,13 @@
         "spanHeight": 2
     },
     {
+        "name": "sololearn C++",
+        "level": "Completed",
+        "img": "sololearn_cpp.jpg",
+        "spanWidth": 2,
+        "spanHeight": 2
+    },
+    {
         "name": "MUEG OPEN HOUSE 2021",
         "level": "Participation",
         "img": "MUEGOPENHOUSE2021.jpg",
