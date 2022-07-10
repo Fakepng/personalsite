@@ -22,7 +22,7 @@ const Certificate = () => {
 		return (
 			<div
 				className={`cert w-${certificate.spanWidth} h-${certificate.spanHeight}`}
-				key={certificate.id}
+				key={index}
 			>
 				<div className='cert-item'>
 					<div className='cert-image'>
