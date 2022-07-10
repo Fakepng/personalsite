@@ -3,7 +3,6 @@
     min-height: 100vh;
     grid-template-columns: 1fr 1fr;
     font-size: 1.2rem;
-    background-color: var(--color-background);
 }
 
 @media screen and (max-width: 1000px) {

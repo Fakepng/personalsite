@@ -1,9 +1,40 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
+import { useSearchParams } from "react-router-dom";
+import BIRDS from "vanta/dist/vanta.birds.min";
+import * as THREE from "three";
 import axios from "axios";
 import "./Hero.css";
 
 const Hero = () => {
 	const [user, setUser] = useState({});
+
+	const [searchParams] = useSearchParams();
+	const setImage = searchParams.get("profile");
+
+	const [vantaEffect, setVantaEffect] = useState(0);
+	const vantaRef = useRef(null);
+
+	useEffect(() => {
+		if (!vantaEffect) {
+			setVantaEffect(
+				BIRDS({
+					el: vantaRef.current,
+					THREE: THREE,
+					mouseControls: true,
+					touchControls: true,
+					gyroControls: true,
+					minHeight: 600.0,
+					scale: 1.0,
+					scaleMobile: 1.0,
+					backgroundColor: 0x0e0b16,
+					quantity: 3.0,
+				})
+			);
+		}
+		return () => {
+			if (vantaEffect) vantaEffect.destroy();
+		};
+	}, [vantaEffect]);
 
 	useEffect(() => {
 		axios
@@ -17,7 +48,7 @@ const Hero = () => {
 	}, []);
 
 	return (
-		<div id='top' className='hero'>
+		<div ref={vantaRef} className='hero' id='top'>
 			<div className='hero-container'>
 				<h1>
 					Welcome to <span className='hero-bold'>Fakepng personal site</span>
@@ -64,11 +95,15 @@ const Hero = () => {
 					</a>
 				</p>
 			</div>
-			<img
-				className='hero-image'
-				src='/images/jpg/Profile.jpg'
-				alt='developer'
-			/>
+			{setImage ? (
+				<img className='hero-image' src='/logo512.png' alt='developer' />
+			) : (
+				<img
+					className='hero-image'
+					src='/images/jpg/Profile.jpg'
+					alt='developer'
+				/>
+			)}
 		</div>
 	);
 };
