@@ -24,11 +24,15 @@
     text-decoration: none;
 }
 
+.menu-close > a:hover, .menu-open > a:hover {
+    font-weight: bold;
+}
+
 .menu-close {
     transform: translateX(-100%) scaleY(0);
     transition: transform 0.2s ease-in-out;
     overflow: hidden;
-}
+} 
 
 .menu-open {
     position: fixed;
