@@ -9,11 +9,13 @@ import Certificate from "./pages/Certificate";
 import Contact from "./pages/Contact";
 
 import Menu from "./components/Menu";
+import FPS from "./components/Fps";
 
 function App() {
 	return (
 		<BrowserRouter>
 			<Menu />
+			<FPS />
 			<Routes>
 				<Route
 					exact

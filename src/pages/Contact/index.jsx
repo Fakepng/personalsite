@@ -1,10 +1,37 @@
-import { useState, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
+import NET from "vanta/dist/vanta.net.min";
+import * as THREE from "three";
 import emailjs from "@emailjs/browser";
 import "./Contact.css";
 
 const Contact = () => {
 	const form = useRef();
 	const [isSent, setSent] = useState("");
+
+	const [vantaEffect, setVantaEffect] = useState(0);
+	const vantaRef = useRef(null);
+
+	useEffect(() => {
+		if (!vantaEffect) {
+			setVantaEffect(
+				NET({
+					el: vantaRef.current,
+					THREE: THREE,
+					mouseControls: true,
+					touchControls: true,
+					gyroControls: true,
+					minHeight: 600.0,
+					scale: 1.0,
+					scaleMobile: 1.0,
+					backgroundColor: 0x0e0b16,
+					color: 0x39ff13,
+				})
+			);
+		}
+		return () => {
+			if (vantaEffect) vantaEffect.destroy();
+		};
+	}, [vantaEffect]);
 
 	const handleSubmit = (event) => {
 		const ONESECONDDELAY = 4000;
@@ -30,7 +57,7 @@ const Contact = () => {
 	};
 
 	return (
-		<div id='contact' className='Contact'>
+		<div ref={vantaRef} id='contact' className='Contact'>
 			<h1>Contact</h1>
 			<form ref={form} onSubmit={handleSubmit}>
 				<div

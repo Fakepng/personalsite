@@ -3,7 +3,7 @@
 .Contact {
     min-height: 100vh;
     width: 100%;
-    background-color: var(--color-background);
+    /* background-color: var(--color-background); */
     margin: 0;
     padding: 0;
     color: #4e5e72;
