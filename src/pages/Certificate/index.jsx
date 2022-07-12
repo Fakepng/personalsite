@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Certificates from "../../config/Certificate.json";
+import Certificates from "../../data/Certificate.json";
 import "./Certificate.css";
 
 const Certificate = () => {

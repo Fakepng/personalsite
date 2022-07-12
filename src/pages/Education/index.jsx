@@ -1,4 +1,4 @@
-import Educations from "../../config/Education.json";
+import Educations from "../../data/Education.json";
 import "./Education.css";
 
 const education = Educations.reverse().map((education) => {
