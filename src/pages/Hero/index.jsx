@@ -3,9 +3,12 @@ import { useSearchParams } from "react-router-dom";
 import BIRDS from "vanta/dist/vanta.birds.min";
 import * as THREE from "three";
 import axios from "axios";
+import useAnalyticsEventTracker from "../../hooks/useAnalyticsEventTracker";
 import "./Hero.css";
 
 const Hero = () => {
+	const gaEventTracker = useAnalyticsEventTracker("Hero");
+
 	const [user, setUser] = useState({});
 
 	const [searchParams] = useSearchParams();
@@ -61,7 +64,11 @@ const Hero = () => {
 					{user.followers} followers | {user.following} following
 				</p>
 				<p>
-					<a href='https://www.instagram.com/krit_fakepng/'>
+					<a
+						href='https://www.instagram.com/krit_fakepng/'
+						target='_blank'
+						onClick={() => gaEventTracker("instagram")}
+					>
 						<svg viewBox='0 0 24 24'>
 							<path
 								fill='currentColor'
@@ -69,7 +76,11 @@ const Hero = () => {
 							/>
 						</svg>
 					</a>
-					<a href='https://www.facebook.com/KritKasemte'>
+					<a
+						href='https://www.facebook.com/KritKasemte'
+						target='_blank'
+						onClick={() => gaEventTracker("facebook")}
+					>
 						<svg viewBox='0 0 24 24'>
 							<path
 								fill='currentColor'
@@ -77,7 +88,11 @@ const Hero = () => {
 							/>
 						</svg>
 					</a>
-					<a href='https://www.youtube.com/channel/UCzyQQ_6vxw02MgdxBGcoKhQ'>
+					<a
+						href='https://www.youtube.com/channel/UCzyQQ_6vxw02MgdxBGcoKhQ'
+						target='_blank'
+						onClick={() => gaEventTracker("youtube")}
+					>
 						<svg viewBox='0 0 24 24'>
 							<path
 								fill='currentColor'
@@ -85,7 +100,11 @@ const Hero = () => {
 							/>
 						</svg>
 					</a>
-					<a href='https://github.com/Fakepng'>
+					<a
+						href='https://github.com/Fakepng'
+						target='_blank'
+						onClick={() => gaEventTracker("github")}
+					>
 						<svg viewBox='0 0 24 24'>
 							<path
 								fill='currentColor'

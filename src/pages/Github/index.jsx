@@ -1,8 +1,11 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
+import useAnalyticsEventTracker from "../../hooks/useAnalyticsEventTracker";
 import "./Github.css";
 
 const Github = () => {
+	const gaEventTracker = useAnalyticsEventTracker("Github");
+
 	const [repos, setRepos] = useState([]);
 
 	useEffect(() => {
@@ -18,7 +21,13 @@ const Github = () => {
 
 	const reposList = repos.map((repo) => {
 		return (
-			<div className={`repo ${repo.language}`} key={repo.id}>
+			<div
+				className={`repo ${repo.language}`}
+				key={repo.id}
+				onClick={() => {
+					gaEventTracker(repo.name);
+				}}
+			>
 				<abbr title={repo.description}>
 					<a href={repo.html_url} target='_blank' rel='noreferrer'>
 						<h2>{repo.name}</h2>

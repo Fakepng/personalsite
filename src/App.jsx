@@ -1,5 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ReactGA from "react-ga";
 
 import Hero from "./pages/Hero";
 import AboutMe from "./pages/AboutMe";
@@ -12,6 +13,10 @@ import Menu from "./components/Menu";
 import FPS from "./components/Fps";
 
 function App() {
+	const TRACKING_ID = "G-XRM8WHGJ6P";
+
+	ReactGA.initialize(TRACKING_ID);
+
 	return (
 		<BrowserRouter>
 			<Menu />
