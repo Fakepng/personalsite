@@ -1,9 +1,10 @@
 {
   "name": "personalsite",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
+    "aos": "^3.0.0-beta.6",
     "axios": "^0.27.2",
     "hamburger-react": "^2.5.0",
     "react": "^18.1.0",
