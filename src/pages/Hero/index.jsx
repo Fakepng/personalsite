@@ -67,6 +67,7 @@ const Hero = () => {
 					<a
 						href='https://www.instagram.com/krit_fakepng/'
 						target='_blank'
+						rel='noreferrer'
 						onClick={() => gaEventTracker("instagram")}
 					>
 						<svg viewBox='0 0 24 24'>
@@ -79,6 +80,7 @@ const Hero = () => {
 					<a
 						href='https://www.facebook.com/KritKasemte'
 						target='_blank'
+						rel='noreferrer'
 						onClick={() => gaEventTracker("facebook")}
 					>
 						<svg viewBox='0 0 24 24'>
@@ -91,6 +93,7 @@ const Hero = () => {
 					<a
 						href='https://www.youtube.com/channel/UCzyQQ_6vxw02MgdxBGcoKhQ'
 						target='_blank'
+						rel='noreferrer'
 						onClick={() => gaEventTracker("youtube")}
 					>
 						<svg viewBox='0 0 24 24'>
@@ -103,6 +106,7 @@ const Hero = () => {
 					<a
 						href='https://github.com/Fakepng'
 						target='_blank'
+						rel='noreferrer'
 						onClick={() => gaEventTracker("github")}
 					>
 						<svg viewBox='0 0 24 24'>
