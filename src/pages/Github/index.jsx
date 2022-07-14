@@ -24,6 +24,8 @@ const Github = () => {
 			<div
 				className={`repo ${repo.language}`}
 				key={repo.id}
+				data-aos='fade-up'
+				data-aos-duration='1000'
 				onClick={() => {
 					gaEventTracker(repo.name);
 				}}
@@ -40,8 +42,9 @@ const Github = () => {
 
 	return (
 		<div id='github' className='Github'>
-			<h1>Github</h1>
+			<h1 data-aos='fade-right'>Github</h1>
 			<img
+				data-aos='flip-up'
 				src='https://ghchart.rshah.org/Fakepng'
 				alt='Fakepng Github contribution'
 			/>

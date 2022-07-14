@@ -38,6 +38,8 @@ const Certificate = () => {
 						<img
 							src={`/images/Certificate/${certificate.img}`}
 							alt={certificate.name}
+							data-aos='fade-up'
+							data-aos-duration='1000'
 							onClick={() => {
 								handleOpen(index);
 							}}
@@ -53,7 +55,7 @@ const Certificate = () => {
 
 	return (
 		<div id='certificate' className='Certificate'>
-			<h1>Certificate</h1>
+			<h1 data-aos='fade-right'>Certificate</h1>
 			<div className='cert-container'>{certificateList}</div>
 			<div className='modal-container'>
 				{isOpen ? (

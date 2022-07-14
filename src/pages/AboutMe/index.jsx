@@ -8,7 +8,7 @@ const AboutMe = () => {
 
 	return (
 		<div id='aboutme' className='AboutMe'>
-			<h1>AboutMe</h1>
+			<h1 data-aos='fade-right'>AboutMe</h1>
 			<div></div>
 		</div>
 	);

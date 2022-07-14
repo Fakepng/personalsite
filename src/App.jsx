@@ -1,6 +1,9 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ReactGA from "react-ga";
+import AOS from "aos";
+
+import "aos/dist/aos.css";
 
 import Hero from "./pages/Hero";
 import AboutMe from "./pages/AboutMe";
@@ -14,8 +17,9 @@ import FPS from "./components/Fps";
 
 function App() {
 	const TRACKING_ID = "G-XRM8WHGJ6P";
-
 	ReactGA.initialize(TRACKING_ID);
+
+	AOS.init();
 
 	return (
 		<BrowserRouter>

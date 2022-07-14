@@ -3,7 +3,12 @@ import "./Education.css";
 
 const education = Educations.reverse().map((education) => {
 	return (
-		<div className='edu' key={education.id}>
+		<div
+			className='edu'
+			key={education.id}
+			data-aos='fade-up'
+			data-aos-duration='1000'
+		>
 			<img src={`/images/school/${education.image}`} alt={education.name} />
 			<h3>{education.year}</h3>
 			<h4>{education.name}</h4>
@@ -17,7 +22,7 @@ const education = Educations.reverse().map((education) => {
 const Education = () => {
 	return (
 		<div id='education' className='Education'>
-			<h1>Education</h1>
+			<h1 data-aos='fade-right'>Education</h1>
 			<div className='edu-container'>{education}</div>
 		</div>
 	);
