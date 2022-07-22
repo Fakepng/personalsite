@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import ReactGA from "react-ga";
 import AOS from "aos";
 
@@ -12,6 +12,8 @@ import Github from "./pages/Github";
 import Certificate from "./pages/Certificate";
 import Contact from "./pages/Contact";
 
+import PageNotFound from "./pages/PageNotFound";
+
 import Menu from "./components/Menu";
 import FPS from "./components/Fps";
 
@@ -23,7 +25,6 @@ function App() {
 
 	return (
 		<BrowserRouter>
-			<Menu />
 			<FPS />
 			<Routes>
 				<Route
@@ -31,6 +32,7 @@ function App() {
 					path='/'
 					element={
 						<>
+							<Menu />
 							<Hero />
 							<AboutMe />
 							<Education />
@@ -40,6 +42,8 @@ function App() {
 						</>
 					}
 				/>
+				<Route path='/404' element={<PageNotFound />} />
+				<Route path='*' element={<Navigate to={"/404"} />} />
 			</Routes>
 		</BrowserRouter>
 	);
