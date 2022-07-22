@@ -29,35 +29,35 @@
     },
     {
         "name": "sololearn Web Development",
-        "level": "Completed",
+        "level": "Course",
         "img": "sololearn_Webdev.jpg",
         "spanWidth": 2,
         "spanHeight": 2
     },
     {
         "name": "sololearn HTML",
-        "level": "Completed",
+        "level": "Course",
         "img": "sololearn_HTML.jpg",
         "spanWidth": 2,
         "spanHeight": 2
     },
     {
         "name": "sololearn JavaScript",
-        "level": "Completed",
+        "level": "Course",
         "img": "sololearn_JavaScript.jpg",
         "spanWidth": 2,
         "spanHeight": 2
     },
     {
         "name": "sololearn React Redux",
-        "level": "Completed",
+        "level": "Course",
         "img": "sololearn_React.jpg",
         "spanWidth": 2,
         "spanHeight": 2
     },
     {
         "name": "sololearn C++",
-        "level": "Completed",
+        "level": "Course",
         "img": "sololearn_cpp.jpg",
         "spanWidth": 2,
         "spanHeight": 2
@@ -87,6 +87,13 @@
         "name": "BORNTODEV",
         "level": "Participation",
         "img": "BORNTODEV_DEVLAB3.png",
+        "spanWidth": 1,
+        "spanHeight": 1
+    },
+    {
+        "name": "Focus Portfolio & TCAS 66",
+        "level": "Staff",
+        "img": "tcas66.jpg",
         "spanWidth": 1,
         "spanHeight": 1
     },
