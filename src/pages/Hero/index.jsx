@@ -10,6 +10,7 @@ const Hero = () => {
 	const gaEventTracker = useAnalyticsEventTracker("Hero");
 
 	const [user, setUser] = useState({});
+	const [wpm, setWpm] = useState("NULL");
 
 	const [searchParams] = useSearchParams();
 	const setImage = searchParams.get("profile");
@@ -48,6 +49,23 @@ const Hero = () => {
 			.catch((err) => {
 				console.error(err);
 			});
+
+		axios
+			.get("https://api.monkeytype.com/users/personalBests", {
+				params: {
+					mode: "time",
+				},
+				headers: {
+					Authorization: "ApeKey " + process.env.REACT_APP_MONKEYTYPE_API_KEY,
+				},
+			})
+			.then((res) => {
+				console.log(res);
+				setWpm(res.data.data[30][0].wpm);
+			})
+			.catch((err) => {
+				console.error(err);
+			});
 	}, []);
 
 	return (
@@ -61,7 +79,7 @@ const Hero = () => {
 					programming.
 				</h2>
 				<p>
-					{user.followers} followers | {user.following} following
+					{user.followers} followers | {user.following} following | {wpm} WPM
 				</p>
 				<p>
 					<a
