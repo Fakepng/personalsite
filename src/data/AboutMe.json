@@ -1,16 +1,24 @@
 {
-    "nickname": "Krit",
-    "firstname": "Krit",
-    "surname": "Kasemtewin",
-    "dateofbirth": "15 July 2004",
-    "email": "contact@fakepng.com",
-    "phone": "095-2546-180",
-    "phoneno": "0952546180",
-    "address": "Nuanchan, Bueng Kum, Bangkok, Thailand",
-    "language": ["Thai", "English"],
-    "school": ["Pramarndanijjanukroh School", "Satriwitthaya 2 School"],
-    "programming": ["HTML", "CSS", "JS", "C", "C++"],
-    "adobe": ["Illustrator", "Premiere Pro", "After Effects", "Lightroom", "Audition"],
-    "microsoft": ["Word", "Excel", "Power Point", "Publisher"],
-    "os": ["Windoes", "Linux", "iOS"]
+	"nickname": "Krit",
+	"firstname": "Krit",
+	"surname": "Kasemtewin",
+	"dateofbirth": "15 July 2004",
+	"email": "contact@fakepng.com",
+	"phone": "095-2546-180",
+	"phoneno": "0952546180",
+	"hobbies": "",
+	"address": "Nuanchan, Bueng Kum, Bangkok, Thailand",
+	"language": ["Thai", "English"],
+	"school": ["Pramarndanijjanukroh School", "Satriwitthaya 2 School"],
+	"schoolTask": ["Drone Operator", "IT Support for SP Program"],
+	"programming": ["HTML", "CSS", "JS", "C", "C++"],
+	"adobe": [
+		"Illustrator",
+		"Premiere Pro",
+		"After Effects",
+		"Lightroom",
+		"Audition"
+	],
+	"microsoft": ["Word", "Excel", "Power Point", "Publisher"],
+	"os": ["Windoes", "Linux", "iOS"]
 }
