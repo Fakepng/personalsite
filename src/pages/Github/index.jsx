@@ -20,12 +20,9 @@ const Github = () => {
 	}, []);
 
 	const reposList = repos.map((repo) => {
-		if (repo.language === "C#") {
-			repo.language = "CSharp";
-		}
 		return (
 			<div
-				className={`repo ${repo.language}`}
+				className={`repo ${repo.language === "C#" ? "CSharp" : repo.language}`}
 				key={repo.id}
 				data-aos='fade-up'
 				data-aos-duration='1000'
