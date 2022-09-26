@@ -20,6 +20,9 @@ const Github = () => {
 	}, []);
 
 	const reposList = repos.map((repo) => {
+		if (repo.language === "C#") {
+			repo.language = "CSharp";
+		}
 		return (
 			<div
 				className={`repo ${repo.language}`}

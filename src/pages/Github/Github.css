@@ -1,102 +1,104 @@
 .Github {
-    min-height: 100vh;
-    color: var(--color-white);
-    background-color: var(--color-background);
+	min-height: 100vh;
+	color: var(--color-white);
+	background-color: var(--color-background);
 }
 
 .Github > h1 {
-    padding-top: 3rem;
-    padding-bottom: 1rem;
-    text-align: center;
-    font-size: 3rem;
+	padding-top: 3rem;
+	padding-bottom: 1rem;
+	text-align: center;
+	font-size: 3rem;
 }
 
 .Github > img {
-    display: flex;
-    width: 50vw;
-    margin: auto;
-    padding-bottom: 2rem;
+	display: flex;
+	width: 50vw;
+	margin: auto;
+	padding-bottom: 2rem;
 }
 
 .repo-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 .repo {
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    margin: 0.5rem;
-    border: 0.2rem dotted var(--color-white);
-    border-radius: 1rem;
-    transform: translateY(0);
-    box-shadow: none;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+	background-color: rgba(0, 0, 0, 0.2);
+	padding: 1rem;
+	margin: 0.5rem;
+	border: 0.2rem dotted var(--color-white);
+	border-radius: 1rem;
+	transform: translateY(0);
+	box-shadow: none;
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .repo:hover {
-    transform: translateY(-0.5rem);
-    box-shadow: 10px 10px 5px var(--github-repo-language);
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+	transform: translateY(-0.5rem);
+	box-shadow: 10px 10px 5px var(--github-repo-language);
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .repo > abbr > a > p {
-    text-align: center;
+	text-align: center;
 }
 
-.repo > abbr, .repo > abbr > a {
-    color: var(--color-white);
-    text-decoration: none;
+.repo > abbr,
+.repo > abbr > a {
+	color: var(--color-white);
+	text-decoration: none;
 }
 
 .JavaScript {
-    border: 0.2rem dotted #f1e05a;
-    --github-repo-language: #f1e05a;
+	border: 0.2rem dotted #f1e05a;
+	--github-repo-language: #f1e05a;
 }
 
-.HTML, .Svelte {
-    border: 0.2rem dotted #e44b23;
-    --github-repo-language: #e44b23;
+.HTML,
+.Svelte {
+	border: 0.2rem dotted #e44b23;
+	--github-repo-language: #e44b23;
 }
 
 .Go {
-    border: 0.2rem dotted #375eab;
-    --github-repo-language: #375eab;
+	border: 0.2rem dotted #375eab;
+	--github-repo-language: #375eab;
 }
 
 .C {
-    border: 0.2rem dotted #555555;
-    --github-repo-language: #555555;
+	border: 0.2rem dotted #555555;
+	--github-repo-language: #555555;
 }
 
 .cpp {
-    border: 0.2rem dotted #f34b7d;
-    --github-repo-language: #f34b7d;
+	border: 0.2rem dotted #f34b7d;
+	--github-repo-language: #f34b7d;
 }
 
 .TypeScript {
-    border: 0.2rem dotted #2b7489;
-    --github-repo-language: #2b7489;
+	border: 0.2rem dotted #2b7489;
+	--github-repo-language: #2b7489;
 }
 
 .Java {
-    border: 0.2rem dotted #b07219;
-    --github-repo-language: #b07219;
+	border: 0.2rem dotted #b07219;
+	--github-repo-language: #b07219;
 }
 
 .Python {
-    border: 0.2rem dotted #3572A5;
-    --github-repo-language: #3572A5;
+	border: 0.2rem dotted #3572a5;
+	--github-repo-language: #3572a5;
 }
 
 .CSS {
-    border: 0.2rem dotted #563d7c;
-    --github-repo-language: #563d7c;
+	border: 0.2rem dotted #563d7c;
+	--github-repo-language: #563d7c;
 }
 
-.C.Sharp {
-    border: 0.2rem dotted #178600;
-    --github-repo-language: #178600;
+.CSharp {
+	border: 0.2rem dotted #178600;
+	--github-repo-language: #178600;
 }
