@@ -107,3 +107,13 @@
   border: 0.2rem dotted #c1f12e;
   --github-repo-language: #c1f12e;
 }
+
+.Shell {
+  border: 0.2rem dotted #89e051;
+  --github-repo-language: #89e051;
+}
+
+.PHP {
+  border: 0.2rem dotted #4f5d95;
+  --github-repo-language: #4f5d95;
+}
