@@ -1,114 +1,149 @@
 [
-    {
-        "name": "EF SET",
-        "level": "C2",
-        "img": "EFSETCertificate.jpg",
-        "spanWidth": 1,
-        "spanHeight": 2
-    },
-    {
-        "name": "K-Engineering World Workshop 2021",
-        "level": "Excellent",
-        "img": "K-EngineeringWorldWorkshop2021.jpg",
-        "spanWidth": 1,
-        "spanHeight": 1
-    },
-    {
-        "name": "อัจฉริยะภาพวิศวศิลปากร 2564",
-        "level": " ดีเด่น",
-        "img": "silpakorn.jpg",
-        "spanWidth": 2,
-        "spanHeight": 2
-    },
-    {
-        "name": "EDAT2021",
-        "level": "Good",
-        "img": "EDATScore.jpg",
-        "spanWidth": 1,
-        "spanHeight": 2
-    },
-    {
-        "name": "sololearn Web Development",
-        "level": "Course",
-        "img": "sololearn_Webdev.jpg",
-        "spanWidth": 2,
-        "spanHeight": 2
-    },
-    {
-        "name": "sololearn HTML",
-        "level": "Course",
-        "img": "sololearn_HTML.jpg",
-        "spanWidth": 2,
-        "spanHeight": 2
-    },
-    {
-        "name": "sololearn JavaScript",
-        "level": "Course",
-        "img": "sololearn_JavaScript.jpg",
-        "spanWidth": 2,
-        "spanHeight": 2
-    },
-    {
-        "name": "sololearn React Redux",
-        "level": "Course",
-        "img": "sololearn_React.jpg",
-        "spanWidth": 2,
-        "spanHeight": 2
-    },
-    {
-        "name": "sololearn C++",
-        "level": "Course",
-        "img": "sololearn_cpp.jpg",
-        "spanWidth": 2,
-        "spanHeight": 2
-    },
-    {
-        "name": "MUEG OPEN HOUSE 2021",
-        "level": "Participation",
-        "img": "MUEGOPENHOUSE2021.jpg",
-        "spanWidth": 1,
-        "spanHeight": 1
-    },
-    {
-        "name": "Thailand Online Competitive Programming Contest 2021",
-        "level": "Participation",
-        "img": "TOCPC2021.jpg",
-        "spanWidth": 2,
-        "spanHeight": 2
-    },
-    {
-        "name": "TNI ONLINE OPEN CAMPUS 2021",
-        "level": "Participation",
-        "img": "TNIONLINEOPENCAMPUS2021.jpg",
-        "spanWidth": 1,
-        "spanHeight": 1
-    },
-    {
-        "name": "BORNTODEV",
-        "level": "Participation",
-        "img": "BORNTODEV_DEVLAB3.png",
-        "spanWidth": 1,
-        "spanHeight": 1
-    },
-    {
-        "name": "Focus Portfolio & TCAS 66",
-        "level": "Staff",
-        "img": "tcas66.jpg",
-        "spanWidth": 1,
-        "spanHeight": 1
-    },
-    {
-        "name": "M4-Future พี่แนะแนวน้อง Online",
-        "level": "Lecturer",
-        "img": "M4FutureOnline.jpg",
-        "spanWidth": 1,
-        "spanHeight": 1
-    },
-    {
-        "name": "เจาะจิตค้นหาตัวตน Day Camp SW2 ครั้งที่ 2",
-        "level": "Participation",
-        "img": "daycamp.jpg",
-        "spanWidth": 1,
-        "spanHeight": 1
-    }
+  {
+    "name": "EF SET",
+    "level": "C2",
+    "img": "EFSETCertificate.jpg",
+    "spanWidth": 1,
+    "spanHeight": 2
+  },
+  {
+    "name": "ศิลปหัตถกรรมนักเรียน ๗๐",
+    "level": "เหรียญเงิน",
+    "img": "webapp.png",
+    "spanWidth": 2,
+    "spanHeight": 2
+  },
+  {
+    "name": "EDAT2021",
+    "level": "Good",
+    "img": "EDATScore.jpg",
+    "spanWidth": 1,
+    "spanHeight": 2
+  },
+  {
+    "name": "K-Engineering World Workshop 2021",
+    "level": "Excellent",
+    "img": "K-EngineeringWorldWorkshop2021.jpg",
+    "spanWidth": 1,
+    "spanHeight": 1
+  },
+  {
+    "name": "อัจฉริยะภาพวิศวศิลปากร 2564",
+    "level": " ดีเด่น",
+    "img": "silpakorn.jpg",
+    "spanWidth": 1,
+    "spanHeight": 1
+  },
+  {
+    "name": "Coding for Metaverse",
+    "level": " Course",
+    "img": "coding-for-metaverse.png",
+    "spanWidth": 1,
+    "spanHeight": 1
+  },
+  {
+    "name": "Fundamental Knowledge of Programming",
+    "level": " Course",
+    "img": "FundamentalKnowledgeofProgramming.png",
+    "spanWidth": 1,
+    "spanHeight": 1
+  },
+  {
+    "name": "Creating Basic Games in Metaverse",
+    "level": " Course",
+    "img": "CreatingBasicGamesinMetaverse.png",
+    "spanWidth": 1,
+    "spanHeight": 1
+  },
+  {
+    "name": "Make Money in Metaverse",
+    "level": " Course",
+    "img": "MakeMoneyinMetaverse.png",
+    "spanWidth": 1,
+    "spanHeight": 1
+  },
+  {
+    "name": "Thailand Online Competitive Programming Contest 2021",
+    "level": "Participation",
+    "img": "TOCPC2021.jpg",
+    "spanWidth": 1,
+    "spanHeight": 1
+  },
+  {
+    "name": "MUEG OPEN HOUSE 2021",
+    "level": "Participation",
+    "img": "MUEGOPENHOUSE2021.jpg",
+    "spanWidth": 1,
+    "spanHeight": 1
+  },
+  {
+    "name": "TNI ONLINE OPEN CAMPUS 2021",
+    "level": "Participation",
+    "img": "TNIONLINEOPENCAMPUS2021.jpg",
+    "spanWidth": 1,
+    "spanHeight": 1
+  },
+  {
+    "name": "sololearn Web Development",
+    "level": "Course",
+    "img": "sololearn_Webdev.jpg",
+    "spanWidth": 1,
+    "spanHeight": 1
+  },
+  {
+    "name": "sololearn HTML",
+    "level": "Course",
+    "img": "sololearn_HTML.jpg",
+    "spanWidth": 1,
+    "spanHeight": 1
+  },
+  {
+    "name": "sololearn JavaScript",
+    "level": "Course",
+    "img": "sololearn_JavaScript.jpg",
+    "spanWidth": 1,
+    "spanHeight": 1
+  },
+  {
+    "name": "sololearn React Redux",
+    "level": "Course",
+    "img": "sololearn_React.jpg",
+    "spanWidth": 1,
+    "spanHeight": 1
+  },
+  {
+    "name": "sololearn C++",
+    "level": "Course",
+    "img": "sololearn_cpp.jpg",
+    "spanWidth": 1,
+    "spanHeight": 1
+  },
+  {
+    "name": "BORNTODEV",
+    "level": "Participation",
+    "img": "BORNTODEV_DEVLAB3.png",
+    "spanWidth": 1,
+    "spanHeight": 1
+  },
+  {
+    "name": "Focus Portfolio & TCAS 66",
+    "level": "Staff",
+    "img": "tcas66.jpg",
+    "spanWidth": 1,
+    "spanHeight": 1
+  },
+  {
+    "name": "M4-Future พี่แนะแนวน้อง Online",
+    "level": "Lecturer",
+    "img": "M4FutureOnline.jpg",
+    "spanWidth": 1,
+    "spanHeight": 1
+  },
+  {
+    "name": "เจาะจิตค้นหาตัวตน Day Camp SW2 ครั้งที่ 2",
+    "level": "Participation",
+    "img": "daycamp.jpg",
+    "spanWidth": 1,
+    "spanHeight": 1
+  }
 ]
